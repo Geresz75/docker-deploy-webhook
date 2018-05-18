@@ -7,5 +7,5 @@ COPY package.json /usr/src/app
 COPY npm-shrinkwrap.json /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install
-EXPOSE 80
+EXPOSE 3000
 CMD [ "npm", "start" ]
